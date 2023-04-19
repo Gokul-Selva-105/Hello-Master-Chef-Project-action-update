@@ -1,0 +1,321 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    height: 4000px;
+}
+#main{
+    height: 3%;
+    width: 3%;
+    margin-top: 80px;
+}
+.box1{
+    margin-top: 70px;
+}
+.margin{
+    margin-top: -760px;
+    margin-left: 50px;
+    
+}
+#hello{
+    margin-top: -40px;
+    margin-left: 50px;
+    /* color: red; */
+}
+#log{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 1030px;
+    margin-top: -90px;
+    /* background-color: white;
+    color: black; */
+}
+#log2{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 1250px;
+    margin-top: -90px;
+    /* color: white;
+    background-color: black; */
+}
+#chef{
+    /* color: rgb(222, 31, 88); */
+    font-family: 'Poppins', sans-serif;
+    margin-left: 510px;
+    margin-top: -50px;
+    font-size: 45px;
+}
+#bcon{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+#mid{
+    font-size: 60px;
+    margin-top: 500px;
+    text-align: center;
+}
+#ypta{
+    margin-top: 100px;
+    border-radius: 15px;
+}
+#yp{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 750px;
+    margin-top: -400px;
+}
+.para1{
+    font-size: 30px;
+    margin-left: 700px;
+}
+#f2{
+    width: 40%;
+    margin-left: 1000px;
+    margin-top: 190px;
+    border-radius: 15px;
+}
+#idli{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -440px;
+    margin-left: 390px;
+}
+.para2{
+    font-size: 30px;
+    text-align: end;
+    margin-right: 700px;
+}
+#f3{
+    width: 40%;
+    border-radius: 15px;
+    margin-top: 300px;
+}
+#crab{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 950px;
+    margin-top: -420px;
+}
+.para3{
+    font-size: 30px;
+    margin-left: 680px;
+}
+#f4{
+    width: 40%;
+    border-radius: 15px;
+    margin-left: 1000px;
+    margin-top: 300px;
+}
+#chicken{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -355px;
+    margin-left: 180px;
+}
+.para4{
+    font-size: 30px;
+    text-align: end;
+    margin-right: 600px;
+}
+.ds{
+    border-bottom: solid 4px black;
+    margin-top: 10px;
+}
+#a1{
+    margin-left: 170px;
+    margin-top: 370px;
+}
+#a2{
+    margin-left: 640px;
+    margin-top: -52px;
+}
+#a3{
+    margin-left: 1100px;
+    margin-top: -52px;
+}
+.social{
+    margin-left: 600px;
+}
+#soc{
+    width: 6%;
+    padding-left: 60px;
+}
+.last{
+    width: 100%;
+    height: 430px;
+    
+    opacity: 30%;
+    margin-top: -110px;
+}
+.cot{
+    font-size: 30px;
+    margin-top: -270px;    
+}
+.bld{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 15px;
+}
+#search{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    border-radius: 19px;
+    margin-top: -3500px;
+    margin-left: 100px;
+    opacity: 60%;
+}
+#src1{
+    width: 1.3%;
+    margin-left: 465px;
+    margin-top: -3490px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+/* ***************************** style ****************************** */
+
+
+
+
+
+
+.margin:nth-child(2){
+    color: red;
+}
+#log{
+    background-color: white;
+    color: black;
+}
+#log2{
+    background-color: black;
+    color: white;
+}
+#chef{
+    color: red;
+}
+#yp{
+    color: rgb(242, 236, 146);
+}
+#idli{
+    color: rgb(181, 181, 181);
+}
+#crab{
+    color: red;
+}
+#chicken{
+    color: rgba(236, 126, 22, 0.689);
+}
+.para1{
+    font-style: italic;
+}
+.para2{
+    font-style: italic;
+}
+.para3{
+    font-style: italic;
+}
+.para4{
+    font-style: italic;
+}
+
+#search {
+    transition: transform 1.5s ease-in-out;
+  }
+  
+#search:hover {
+    transform: scale(1.1);
+  }
+  #src1 {
+    transition: transform 1s ease-in-out;
+  }
+  
+#src1:hover {
+    transform: scale(1.5);
+  }
+  #log {
+    transition: transform 1.5s ease-in-out;
+  }
+  
+#log:hover {
+    transform: scale(1.1);
+  } 
+  #log2 {
+    transition: transform 1.5s ease-in-out;
+  }
+  
+#log2:hover {
+    transform: scale(1.1);
+  } 
+  #chef {
+    transition: transform 1.5s ease-in-out;
+  }
+  
+#chef:hover {
+    transform: scale(1.1);
+  } 
+  #yp {
+    transition: transform 1.5s ease-in-out;
+  }
+  
+#yp:hover {
+    transform: scale(1.1);
+  } 
+  #idli {
+    transition: transform 1.5s ease-in-out;
+  }
+  
+#idli:hover {
+    transform: scale(1.1);
+  } 
+  #crab {
+    transition: transform 1.5s ease-in-out;
+  }
+  
+#crab:hover {
+    transform: scale(1.1);
+  } 
+  #chicken {
+    transition: transform 1.5s ease-in-out;
+  }
+  
+#chicken:hover {
+    transform: scale(1.1);
+  } 
+  #a1 {
+    transition: transform 1s ease-in-out;
+  }
+  
+#a1:hover {
+    transform: scale(1.1);
+  } 
+  #a2 {
+    transition: transform 1s ease-in-out;
+  }
+  
+#a2:hover {
+    transform: scale(1.1);
+  } 
+  #a3 {
+    transition: transform 1s ease-in-out;
+  }
+  
+#a3:hover {
+    transform: scale(1.1);
+  } 
+.last{
+    background-color: gray;
+}
+.ds{
+    border-bottom: solid 4px red !important;
+}
